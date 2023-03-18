@@ -21,7 +21,7 @@ const allItemsRemovedText = 'všetky položky odstránené'
 const addBtnText = 'pridaj'
 const editBtnText = 'ulož'
 grocery.setAttribute('placeholder', 'pridaj napr. avokádo')
-heading.textContent = 'nákupný zoznam'
+heading.textContent = 'nákupný buddy'
 clearBtn.textContent = 'vymaž zoznam'
 submitBtn.textContent = addBtnText
 
