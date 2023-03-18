@@ -13,15 +13,15 @@ let editElement
 let editFlag = false
 
 // localization (default SK)
-const itemAddedText = 'položka pridaná'
-const itemEditedText = 'položka upravená'
-const itemRemovedText = 'položka odstránená'
-const inputValueText = 'zadaj názov položky'
-const allItemsRemovedText = 'všetky položky odstránené'
+const itemAddedText = 'úloha pridaná'
+const itemEditedText = 'úloha upravená'
+const itemRemovedText = 'úloha odstránená'
+const inputValueText = 'zadaj názov úlohy'
+const allItemsRemovedText = 'všetky úlohy odstránené'
 const addBtnText = 'pridaj'
 const editBtnText = 'ulož'
-grocery.setAttribute('placeholder', 'pridaj napr. avokádo')
-heading.textContent = 'nákupný buddy'
+grocery.setAttribute('placeholder', 'pridaj napr. tréning')
+heading.textContent = 'ToDo List'
 clearBtn.textContent = 'vymaž zoznam'
 submitBtn.textContent = addBtnText
 
